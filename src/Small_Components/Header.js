@@ -9,7 +9,7 @@ const headerStyle = {
     height: '50px', // Set a fixed height to make the header thinner
     backgroundColor: '#BDD6BD', // A shade of mint green
     color: 'black',
-    fontSize: '14px', // Smaller font size
+    fontSize: '10px', // Smaller font size
     position: 'fixed',
     top: '0',
     left: '0',
