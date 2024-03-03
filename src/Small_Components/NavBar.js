@@ -1,11 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import turtleImg from '../images/Tula_Logo.jpg'; // Adjust the path to your image
-import logoImg from '../images/Tula_Website_Title.jpg'; // Adjust the path to your image
-import instagramIcon from '../images/instagram.jpg'; // Adjust with your actual image path
-import emailIcon from '../images/mail.jpg'; // Adjust with your actual image path
-import cartIcon from '../images/shopping.jpg'; // Adjust with your actual image path
-
+import turtleImg from '../images/Tula_Logo.jpg';
+import logoImg from '../images/Tula_Website_Title.jpg'; 
+import instagramIcon from '../images/instagram.jpg'; 
+import emailIcon from '../images/mail.jpg'; 
+import cartIcon from '../images/shopping.jpg';
 const styles = {
   navBar: {
     display: 'flex',
@@ -13,10 +12,10 @@ const styles = {
     alignItems: 'center',
     padding: '0 20px',
     backgroundColor: 'white',
-    height: '300px', // Increase the height to make the bar thicker
+    height: '300px',
   },
   navItem: {
-    padding: '0 10px', // Adjust padding as needed
+    padding: '0 10px', 
     display: 'flex',
     alignItems: 'center',
     height: '100%',
@@ -24,14 +23,14 @@ const styles = {
   navLink: {
     textDecoration: 'none',
     color: 'black',
-    fontSize: '16px', // Adjust as needed
-    padding: '0 10px', // Adjust padding as needed
+    fontSize: '16px', 
+    padding: '0 10px',
     display: 'flex',
     alignItems: 'center',
     height: '100%',
   },
   imageIcon: {
-    height: '10%', // Adjust the icon size relative to the navbar height
+    height: '10%', 
   },
   turtleIcon:{
     height: '100%', 

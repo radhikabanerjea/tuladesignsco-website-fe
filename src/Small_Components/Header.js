@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
-// CSS styles for the header
 const headerStyle = {
-    display: 'flex', // Use flexbox for centering
+    display: 'flex', 
     justifyContent: 'center', // Center horizontally
     alignItems: 'center', // Center vertically
     width: '100%',
