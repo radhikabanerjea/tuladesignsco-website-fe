@@ -5,6 +5,7 @@ import logoImg from '../images/Tula_Website_Title.jpg';
 import instagramIcon from '../images/instagram.jpg'; 
 import emailIcon from '../images/mail.jpg'; 
 import cartIcon from '../images/shopping.jpg';
+
 const styles = {
   navBar: {
     display: 'flex',

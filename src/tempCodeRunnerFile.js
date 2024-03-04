@@ -1,8 +1,7 @@
 import logo from './logo.svg';
-
 import Header from './Small_Components/Header';
 //import Header from './small_components/Header';
-import Contact_Us from './Small_Components/Contact_Us';
+import Contact_Us from './Small_components/Contact_Us';
 import './App.css';
 
 import React from 'react';
@@ -12,7 +11,7 @@ import ShopPage from './pages/ShopPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import CartPage from './pages/CartPage';
-import NavBar from './Small_Components/NavBar'; // Corrected import statement
+import NavBar from './Small_components/NavBar'; // Corrected import statement
 
 
 function App() {

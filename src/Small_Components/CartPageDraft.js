@@ -1,12 +1,12 @@
 import React from 'react';
-
-//import ShoppingCartItem from './Small_Components/ShoppingCartItem';
+import ShoppingCartItem from './ShoppingCartItem';
 
 const cartStyles = {
 
     ShoppingCartStyle: {
         display : 'flex',
-        //fontSize : '15px',
+        flexDirection : 'column',
+        fontSize : '20px',
         alignItems : 'center',
         width : '90%',
         marginLeft: '30px'
@@ -14,13 +14,10 @@ const cartStyles = {
     },
 
     ShoppingCartTitle: {
-        textDecoration: 'none',
-        display : 'flex',
-        fontSize : '15px',
-        alignItems : 'center',
+        fontSize : '20px',
+        fontWeight : 'bold',
         color : 'black',
-        width : '90%',
-        marginLeft: '30px'
+        marginBottom : '20px'
     },
 
     CheckoutButton: {
@@ -38,15 +35,11 @@ const cartStyles = {
 
 }
 
-function CartPage() {
-  return (
-
-    <div style={cartStyles.ShoppingCartTitle}>
+const ShoppingCart = () => {
+    return (
+        <div style={ShoppingCartStyle}>
             <h1>Shopping Cart</h1>
-            {/* <ShoppingCartItem/> */}
-    </div>
-
-  );
+            <ShoppingCartItem/>
+        </div>
+    );
 }
-
-export default CartPage;
